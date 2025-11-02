@@ -1,4 +1,4 @@
-# DevOps Portfolio — Mictwito
+# DevOps Portfolio 
 
 A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestration, stateful storage, and monitoring — all built from real-world exercises and production-style workflows.
 
@@ -59,7 +59,7 @@ This portfolio reflects my progress through 100 days of practical DevOps labs, i
 
 ## 📫 Connect
 - **GitHub:** [github.com/Mictwito](https://github.com/Mictwito)
-- **LinkedIn:** *(add your link here)*
+
 
 ---
 
