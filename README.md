@@ -1,1 +1,42 @@
-# DevOps-Portfolio
+# DevOps Portfolio — Mictwito
+
+A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestration, stateful storage, and monitoring — all built from real-world exercises and production-style workflows.
+
+---
+
+## 🧰 Tech Stack
+| Category | Tools |
+|-----------|-------|
+| CI/CD | Jenkins, GitHub Actions |
+| Containers | Docker, Kubernetes, Helm |
+| Infrastructure | Linux, YAML, Bash |
+| Databases | MySQL, Redis |
+| Monitoring | Prometheus, Grafana |
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Folder |
+|----------|--------------|---------|
+| **Jenkins Auto-Deploy** | Automates build and deployment of a static web app using Jenkins pipelines and SSH. | [`Jenkins/`](./Jenkins) |
+| **Kubernetes Guestbook** | Redis master–replica setup using Deployments and Services. | [`Kubernetes/guestbook`](./Kubernetes/guestbook) |
+| **MySQL with PVC + Secret** | Persistent and secure DB deployment using Kubernetes PVC and Secret. | [`DB/mysql`](./DB/mysql) |
+| **Monitoring Stack** | Prometheus + Grafana installation via Helm chart. | [`Monitoring/prometheus-grafana`](./Monitoring/prometheus-grafana) |
+
+---
+
+## 📄 Structure
+DevOps-Portfolio/
+├── Jenkins/
+│ ├── job/
+│ └── docs/
+├── Kubernetes/
+│ ├── guestbook/
+│ └── docs/
+├── DB/
+│ ├── mysql/
+│ └── docs/
+└── Monitoring/
+├── prometheus-grafana/
+└── docs/
