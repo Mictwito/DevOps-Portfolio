@@ -40,3 +40,26 @@ DevOps-Portfolio/
 └── Monitoring/
 ├── prometheus-grafana/
 └── docs/
+
+
+---
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mictwito&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mictwito&layout=compact&theme=tokyonight)
+
+---
+
+## 🧭 About Me
+I’m a hands-on DevOps Engineer passionate about automation, infrastructure, and continuous delivery.  
+I enjoy building efficient, secure, and scalable systems — always learning, always improving.  
+This portfolio reflects my progress through 100 days of practical DevOps labs, including CI/CD, Kubernetes, monitoring, and system automation.
+
+---
+
+## 📫 Connect
+- **GitHub:** [github.com/Mictwito](https://github.com/Mictwito)
+- **LinkedIn:** *(add your link here)*
+
+---
+
