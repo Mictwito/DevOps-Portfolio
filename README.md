@@ -5,13 +5,18 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 ---
 
 ## 🧰 Tech Stack
-| Category | Tools |
-|-----------|-------|
-| CI/CD | Jenkins, GitHub Actions |
-| Containers | Docker, Kubernetes, Helm |
-| Infrastructure | Linux, YAML, Bash |
-| Databases | MySQL, Redis |
-| Monitoring | Prometheus, Grafana |
+
+| Category | Tools & Technologies |
+|-----------|----------------------|
+| **Languages & Scripting** | Bash, YAML, Python, Groovy |
+| **Version Control** | Git, GitHub, Gitea |
+| **CI/CD** | Jenkins, GitHub Actions |
+| **Containers & Orchestration** | Docker, Kubernetes, Helm |
+| **Monitoring & Logging** | Prometheus, Grafana |
+| **Cloud & Infrastructure** | AWS (EC2, S3, IAM), Azure Fundamentals |
+| **Security & Secrets Management** | TLS, SSH, Vault, Kubernetes Secrets |
+| **OS & Environments** | Linux (Ubuntu, CentOS), Windows Server |
+
 
 ---
 
