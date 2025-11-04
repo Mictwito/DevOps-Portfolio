@@ -40,7 +40,6 @@ DevOps-Portfolio/
 └── Monitoring/
 ├── prometheus-grafana/
 └── docs/
-
 ---
 
 ## 📊 GitHub Stats
