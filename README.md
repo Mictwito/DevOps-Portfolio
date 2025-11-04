@@ -46,13 +46,13 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 ## 🧩 How to Run Locally
 git clone https://github.com/Mictwito/DevOps-Portfolio.git
 cd Kubernetes/guestbook && kubectl apply -f .
-
+<br>
 ### 🧩 Jenkins Pipeline
 - [📂 View Files](./Jenkins/job/)
 - [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Jenkins/job)
 - > _Run inside Cloud Shell:_  
 > `jenkins-jobs build all`
-
+<br>
 
 
 ### ☸️ Kubernetes Guestbook
@@ -60,7 +60,7 @@ cd Kubernetes/guestbook && kubectl apply -f .
 - [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Kubernetes/guestbook)
 - > _Run inside Cloud Shell:_  
 > `kubectl apply -f . && kubectl get pods,svc`
->
+><br>
 > 
 
 ### 🗄️ MySQL Database
@@ -68,7 +68,7 @@ cd Kubernetes/guestbook && kubectl apply -f .
 - [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=DB/mysql)
 - > _Run inside Cloud Shell:_  
 > `kubectl apply -f DB/mysql/`
-
+<br>
 
 
 
@@ -78,7 +78,7 @@ cd Kubernetes/guestbook && kubectl apply -f .
 - > _Run inside Cloud Shell:_  
 > `helm install monitoring ./Monitoring/prometheus-grafana`
 
-
+<br>
 
 ---
 
