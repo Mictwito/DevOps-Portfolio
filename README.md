@@ -27,24 +27,13 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 ---
 ## 🧱 Project Structure
 
-DevOps-Portfolio/
-├── Jenkins/
-│ ├── job/
-│ └── docs/
-├── Kubernetes/
-│ ├── guestbook/
-│ └── docs/
-├── DB/
-│ ├── mysql/
-│ └── docs/
-└── Monitoring/
-├── prometheus-grafana/
-└── docs/
+| Component | Description | Path |
+|------------|-------------|------|
+| Jenkins | CI/CD pipeline jobs and automation | [Jenkins/job/](./Jenkins/job/) |
+| Kubernetes | Guestbook app deployment (frontend + backend) | [Kubernetes/guestbook/](./Kubernetes/guestbook/) |
+| Database (MySQL) | Persistent MySQL setup using PVC and Secrets | [DB/mysql/](./DB/mysql/) |
+| Monitoring | Prometheus + Grafana via Helm | [Monitoring/prometheus-grafana/](./Monitoring/prometheus-grafana/) |
 
-markdown
-Copy code
-
-Each directory contains configuration files, manifests, or documentation related to its specific DevOps component.
 
 ---
 
