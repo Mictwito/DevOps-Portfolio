@@ -67,7 +67,6 @@ Use the Cloud Shell buttons below to open and run each project directly in Googl
 - > _Run inside Cloud Shell:_  
 > `kubectl apply -f . && kubectl get pods,svc`
 ><br>
-> 
 
 ### 🗄️ MySQL Database
 - [📂 View Files](./DB/mysql/)
@@ -83,7 +82,6 @@ Use the Cloud Shell buttons below to open and run each project directly in Googl
 - [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Monitoring/prometheus-grafana)
 - > _Run inside Cloud Shell:_  
 > `helm install monitoring ./Monitoring/prometheus-grafana`
-
 <br>
 
 ---
