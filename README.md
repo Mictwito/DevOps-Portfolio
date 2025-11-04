@@ -47,6 +47,12 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 git clone https://github.com/Mictwito/DevOps-Portfolio.git
 cd Kubernetes/guestbook && kubectl apply -f .
 <br>
+
+##☁️ Run in Google Cloud Shell
+
+Use the Cloud Shell buttons below to open and run each project directly in Google Cloud.
+
+
 ### 🧩 Jenkins Pipeline
 - [📂 View Files](./Jenkins/job/)
 - [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Jenkins/job)
