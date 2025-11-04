@@ -48,7 +48,7 @@ git clone https://github.com/Mictwito/DevOps-Portfolio.git
 cd Kubernetes/guestbook && kubectl apply -f .
 <br>
 
-##☁️ Run in Google Cloud Shell
+☁️ Run in Google Cloud Shell
 
 Use the Cloud Shell buttons below to open and run each project directly in Google Cloud.
 
