@@ -25,8 +25,8 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 | **Monitoring Stack** | Prometheus + Grafana installation via Helm chart. | [`Monitoring/prometheus-grafana`](./Monitoring/prometheus-grafana) |
 
 ---
+## 🧱 Project Structure
 
-## 📄 Structure
 DevOps-Portfolio/
 ├── Jenkins/
 │ ├── job/
@@ -40,6 +40,32 @@ DevOps-Portfolio/
 └── Monitoring/
 ├── prometheus-grafana/
 └── docs/
+
+markdown
+Copy code
+
+Each directory contains configuration files, manifests, or documentation related to its specific DevOps component.
+
+---
+
+### 📂 Folder Links
+
+#### 🧩 Jenkins
+- [Jenkins/job/](./Jenkins/job/) — Jenkins pipeline jobs and automation scripts  
+- [Jenkins/docs/](./Jenkins/docs/) — Jenkins documentation and configurations  
+
+#### ☸️ Kubernetes
+- [Kubernetes/guestbook/](./Kubernetes/guestbook/) — Example guestbook app (frontend + backend)  
+- [Kubernetes/docs/](./Kubernetes/docs/) — YAML manifests and deployment notes  
+
+#### 🗄️ Database (MySQL)
+- [DB/mysql/](./DB/mysql/) — Persistent MySQL setup using PVC and Secrets  
+- [DB/docs/](./DB/docs/) — Database configuration, backups and restore instructions  
+
+#### 📊 Monitoring
+- [Monitoring/prometheus-grafana/](./Monitoring/prometheus-grafana/) — Monitoring stack via Helm chart  
+- [Monitoring/docs/](./Monitoring/docs/) — Grafana dashboards and Prometheus configuration  
+
 ---
 
 ## 📊 GitHub Stats
