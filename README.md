@@ -34,27 +34,6 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 | Database (MySQL) | Persistent MySQL setup using PVC and Secrets | [DB/mysql/](./DB/mysql/) |
 | Monitoring | Prometheus + Grafana via Helm | [Monitoring/prometheus-grafana/](./Monitoring/prometheus-grafana/) |
 
-
----
-
-### 📂 Folder Links
-
-#### 🧩 Jenkins
-- [Jenkins/job/](./Jenkins/job/) — Jenkins pipeline jobs and automation scripts  
-- [Jenkins/docs/](./Jenkins/docs/) — Jenkins documentation and configurations  
-
-#### ☸️ Kubernetes
-- [Kubernetes/guestbook/](./Kubernetes/guestbook/) — Example guestbook app (frontend + backend)  
-- [Kubernetes/docs/](./Kubernetes/docs/) — YAML manifests and deployment notes  
-
-#### 🗄️ Database (MySQL)
-- [DB/mysql/](./DB/mysql/) — Persistent MySQL setup using PVC and Secrets  
-- [DB/docs/](./DB/docs/) — Database configuration, backups and restore instructions  
-
-#### 📊 Monitoring
-- [Monitoring/prometheus-grafana/](./Monitoring/prometheus-grafana/) — Monitoring stack via Helm chart  
-- [Monitoring/docs/](./Monitoring/docs/) — Grafana dashboards and Prometheus configuration  
-
 ---
 
 ## 📊 GitHub Stats
