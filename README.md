@@ -1,5 +1,8 @@
 # DevOps Portfolio 
 
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/?show=ide&cloudshell_git_repo=https://github.com/Mictwito/DevOps-Portfolio.git)
+
+
 A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestration, stateful storage, and monitoring — all built from real-world exercises and production-style workflows.
 
 ---
