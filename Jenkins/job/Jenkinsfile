@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    environment {
+        DEPLOY_SERVER = "stapp01.stratos.xfusioncorp.com"
+        DEPLOY_USER = "natasha"
+        APP_DIR = "/var/www/html"
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Mictwito/DevOps-Portfolio.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo "Simulating build stage (npm, maven, etc)"
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo "Deploying to ${DEPLOY_SERVER}"
+                sh """
+                ssh ${DEPLOY_USER}@${DEPLOY_SERVER} 'sudo systemctl restart httpd'
+                """
+            }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ Deployment successful'
+        }
+        failure {
+            echo '❌ Deployment failed'
+        }
+    }
+}
