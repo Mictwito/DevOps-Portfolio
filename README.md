@@ -41,6 +41,27 @@ A practical DevOps portfolio demonstrating CI/CD pipelines, container orchestrat
 
 ---
 
+## 🌐 Live Project Links
+
+### 🧩 Jenkins Pipeline
+- [📂 View Files](./Jenkins/job/)
+- [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Jenkins/job)
+
+### ☸️ Kubernetes Guestbook
+- [📂 View Files](./Kubernetes/guestbook/)
+- [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Kubernetes/guestbook)
+
+### 🗄️ MySQL Database
+- [📂 View Files](./DB/mysql/)
+- [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=DB/mysql)
+
+### 📊 Monitoring (Prometheus + Grafana)
+- [📂 View Files](./Monitoring/prometheus-grafana/)
+- [▶️ Open in Cloud Shell](https://shell.cloud.google.com/?repo=https://github.com/Mictwito/DevOps-Portfolio.git&dir=Monitoring/prometheus-grafana)
+
+
+---
+
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mictwito&show_icons=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mictwito&layout=compact&theme=tokyonight)
