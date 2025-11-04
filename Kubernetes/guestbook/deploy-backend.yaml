@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: guestbook-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: guestbook
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: guestbook
+        tier: backend
+    spec:
+      containers:
+      - name: redis
+        image: redis:7-alpine
+        ports:
+        - containerPort: 6379
+        readinessProbe:
+          tcpSocket: { port: 6379 }
+          initialDelaySeconds: 5
+        livenessProbe:
+          tcpSocket: { port: 6379 }
+          initialDelaySeconds: 10
